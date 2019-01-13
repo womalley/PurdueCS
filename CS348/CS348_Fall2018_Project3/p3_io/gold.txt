@@ -1,0 +1,390 @@
+1: LOGIN admin pass
+Login successful
+
+2: Invalid login
+
+3: Invalid login
+
+4: LOGIN U1 P1
+Login successful
+
+5: CREATE ROLE RDUMMY DK
+Authorization failure
+
+6: CREATE USER U70 P70
+Authorization failure
+
+7: GRANT ROLE U70 RDUMMY
+Authorization failure
+
+8: GRANT PRIVILEGE INSERT TO RDUMMY ON Companies
+Authorization failure
+
+9: LOGIN U3 P3
+Login successful
+
+10: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN
+
+11: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+12: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+13: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN
+
+14: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+15: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+16: LOGIN U2 P2
+Login successful
+
+17: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN
+
+18: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+19: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+20: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN
+
+21: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+22: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+23: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN
+
+24: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+25: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+26: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, product 1, category 1, 1, 19.99
+
+27: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, product 1, category 1, 1, 19.99, 1, product 1, category 1, 1, 19.99
+
+1: LOGIN admin pass
+Login successful
+
+2: Invalid login
+
+3: Invalid login
+
+4: LOGIN U1 P1
+Login successful
+
+5: CREATE ROLE RDUMMY DK
+Authorization failure
+
+6: CREATE USER U70 P70
+Authorization failure
+
+7: GRANT ROLE U70 RDUMMY
+Authorization failure
+
+8: GRANT PRIVILEGE INSERT TO RDUMMY ON Companies
+Authorization failure
+
+9: LOGIN U3 P3
+Login successful
+
+10: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN
+
+11: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+12: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+13: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN
+
+14: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+15: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+16: LOGIN U2 P2
+Login successful
+
+17: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN
+
+18: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+19: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+20: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN
+
+21: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+22: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+23: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN
+
+24: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA
+
+25: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL, 1, name 1, location 1, IN, 2, name 2, location 2, CA, 3, name 3, location 3, IL
+
+26: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, product 1, category 1, 1, 19.99
+
+27: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, product 1, category 1, 1, 19.99, 1, product 1, category 1, 1, 19.99
+
+28: INSERT INTO Companies VALUES ('4', 'name 4', 'location 4', 'WA') ENCRYPT 4 R1
+Row inserted successfully
+
+29: INSERT INTO Customers VALUES ('2', 'first 2', 'last 2', 'address 2') ENCRYPT 2 R3
+Row inserted successfully
+
+30: LOGIN U4 P4
+Login successful
+
+31: SELECT * FROM Customers
+CUSTOMERID, FIRSTNAME, LASTNAME, ADDRESS
+1, first 1, last 1, address 1
+
+32: SELECT * FROM Customers
+CUSTOMERID, FIRSTNAME, LASTNAME, ADDRESS
+1, first 1, last 1, address 1, 2, first 2, last 2, address 2
+
+33: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, bnqr 1, location 1, IN
+
+34: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, bnqr 1, location 1, IN, 2, name 2, zbglhkog 2, CA
+
+35: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, bnqr 1, location 1, IN, 2, name 2, zbglhkog 2, CA, 3, name 3, location 3, IL
+
+36: SELECT * FROM Companies
+COMPANYID, COMPANYNAME, ADDRESS, STATE
+1, bnqr 1, location 1, IN, 2, name 2, zbglhkog 2, CA, 3, name 3, location 3, IL, 4, name 4, location 4, KN
+
+37: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, incslqw 1, category 1, 1, 19.99
+
+38: LOGIN U1 P1
+Login successful
+
+39: INSERT INTO Products VALUES ('3', 'product 3', 'category 3', '3', '33.33') ENCRYPT 5 R2
+Authorization failure
+
+40: INSERT INTO Customers VALUES ('3', 'first 3', 'last 3', 'address 3') ENCRYPT 3 R3
+Authorization failure
+
+41: SELECT * FROM Products
+Authorization failure
+
+42: SELECT * FROM Customers
+Authorization failure
+
+43: LOGIN U3 P3
+Login successful
+
+44: SELECT * FROM Customers
+Authorization failure
+
+45: GRANT PRIVILEGE SELECT TO R3 ON Companies
+Authorization failure
+
+46: LOGIN admin pass
+Login successful
+
+47: REVOKE PRIVILEGE SELECT FROM R3 ON Companies
+Privilege revoked successfully
+
+48: LOGIN U4 P4
+Login successful
+
+49: SELECT * FROM Companies
+Authorization failure
+
+50: QUIT
+1: LOGIN admin pass
+Login successful
+
+2: CREATE ROLE ROLECUSTOMER CK
+Role created successfully
+
+3: CREATE ROLE ROLEMANAGER MK
+Role created successfully
+
+4: CREATE USER USER1 PASS1
+User created successfully
+
+5: CREATE USER USER2 PASS2
+User created successfully
+
+6: GRANT ROLE USER1 ROLEMANAGER
+Role assigned successfully
+
+7: GRANT ROLE USER2 ROLECUSTOMER
+Role assigned successfully
+
+8: GRANT PRIVILEGE INSERT TO ROLEMANAGER ON Customers
+Privilege granted successfully
+
+9: GRANT PRIVILEGE INSERT TO ROLEMANAGER ON Products
+Privilege granted successfully
+
+10: GRANT PRIVILEGE SELECT TO ROLEMANAGER ON Customers
+Privilege granted successfully
+
+11: GRANT PRIVILEGE SELECT TO ROLEMANAGER ON Products
+Privilege granted successfully
+
+12: GRANT PRIVILEGE SELECT TO ROLECUSTOMER ON Products
+Privilege granted successfully
+
+13: LOGIN USER1 PASS1
+Login successful
+
+14: SELECT * FROM Customers
+CUSTOMERID, FIRSTNAME, LASTNAME, ADDRESS
+1, first 1, last 1, tkuvisv 1
+
+15: SELECT * FROM Customers
+CUSTOMERID, FIRSTNAME, LASTNAME, ADDRESS
+1, first 1, last 1, tkuvisv 1, 2, ypiwx 2, last 2, address 2
+
+16: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, incslqw 1, category 1, 1, 19.99
+
+17: LOGIN USER2 PASS2
+Login successful
+
+18: SELECT * FROM Customers
+Authorization failure
+
+19: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, incslqw 1, category 1, 1, 19.99
+
+20: INSERT INTO Customers VALUES ('2', 'first 2', 'last 2', 'address 2') ENCRYPT 3 ROLEMANAGER
+Authorization failure
+
+21: LOGIN admin pass
+Login successful
+
+22: REVOKE PRIVILEGE SELECT FROM ROLECUSTOMER ON Products
+Privilege revoked successfully
+
+23: LOGIN USER2 PASS2
+Login successful
+
+24: SELECT * FROM Products
+Authorization failure
+
+25: QUIT
+1: LOGIN admin pass
+Login successful
+
+2: GRANT PRIVILEGE SELECT TO ROLECUSTOMER ON Products
+Privilege granted successfully
+
+3: LOGIN USER1 PASS1
+Login successful
+
+4: SELECT * FROM Customers
+CUSTOMERID, FIRSTNAME, LASTNAME, ADDRESS
+1, first 1, last 1, tkuvisv 1
+
+5: SELECT * FROM Customers
+CUSTOMERID, FIRSTNAME, LASTNAME, ADDRESS
+1, first 1, last 1, tkuvisv 1, 2, ypiwx 2, last 2, address 2
+
+6: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, incslqw 1, category 1, 1, 19.99
+
+7: LOGIN USER2 PASS2
+Login successful
+
+8: SELECT * FROM Customers
+Authorization failure
+
+9: SELECT * FROM Products
+PRODUCTID, PRODUCTNAME, CATEGORY, COMPANYID, EXFACTORYPRICE
+1, incslqw 1, category 1, 1, 19.99
+
+10: INSERT INTO Customers VALUES ('2', 'first 2', 'last 2', 'address 2') ENCRYPT 3 ROLEMANAGER
+Authorization failure
+
+11: LOGIN admin pass
+Login successful
+
+12: REVOKE PRIVILEGE SELECT FROM ROLECUSTOMER ON Products
+Privilege revoked successfully
+
+13: LOGIN USER2 PASS2
+Login successful
+
+14: SELECT * FROM Products
+Authorization failure
+
+15: QUIT

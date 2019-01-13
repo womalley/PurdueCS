@@ -1,0 +1,45 @@
+>>>Query1
+electronics				      5
+books					      3
+apparel 				      2
+text_books				      1
+>>>Query2
+electronics				424.00
+text_books				 30.00
+books					 29.97
+apparel 				  6.25
+>>>Query3
+	 1 Iphone
+	 2 OnePlus 5t
+	 5 inferno
+	 6 paths of glory
+	 8 da vinci code
+	 9 Macbook
+	10 Foundation of Crypto
+	11 Pixel Book
+>>>Query4
+	 1	    1		  5
+	 1	    5		105
+	 2	    9		  5
+	 2	   11		  2
+>>>Query5
+inferno 				     115
+Foundation of Crypto			      45
+Iphone					      15
+>>>Query6
+Cust H			       Cust Last h			     12100.00
+Cust A			       Cust Last a			      9000.00
+Cust B			       Cust Last b			      8100.00
+>>>Query7
+	 1 Retailer A				       7
+	 2 Retailer B				       4
+>>>Query8
+	 1 Retailer A				  6352.00
+	 2 Retailer B				  1600.00
+>>>Query9
+	 5 Company E				 161
+	 1 Company A				  27
+	 7 Company G				  11
+>>>Query10
+	 1 Retailer A						  5
+	 2 Retailer B						  3
