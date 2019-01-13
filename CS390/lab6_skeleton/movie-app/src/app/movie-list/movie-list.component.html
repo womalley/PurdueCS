@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <div class="row">
+    <input class="form-control" placeholder="search" [formControl]="searchControl">
+    <div *ngFor="let movie of movies" class="col-md-4">
+      <app-movie-display [movie]="movie"></app-movie-display>
+    </div>
+  </div>
+</div>
