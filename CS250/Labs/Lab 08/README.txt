@@ -1,0 +1,1 @@
+Please make sure the lab doesn't change at all before using these test scripts. The professor may provide you with them for lab; if so, use those instead.

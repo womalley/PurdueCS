@@ -1,0 +1,1 @@
+Try not to copy my code directly. Use it as a reference when you go to do yours if the labs are the same.
