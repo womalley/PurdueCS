@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="row">
+    <cs390wap-movie-display-component *ngFor = "let movie of movies" [movie] = "movie"></cs390wap-movie-display-component>
+    <!-- You need to extract this code here to a different component -->
+    <!-- <div *ngFor="let movie of movies" class="card movie-card" [routerLink]="['movie', 'detail', movie.id]">
+      <img class="card-img-top" [src]="movie.image ? movie.image : '/assets/default.png'" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{movie.title}} <span class="fa fa-edit" [routerLink]="['movie', 'edit', movie.id]"></span></h5>
+        <p class="card-text">Status: {{movie.productionStatus}}</p>
+      </div>
+    </div> -->
+    <!----------------------------------------------------------------->
+    <button [routerLink]="['movie', 'new']" class="btn btn-lg btn-primary btn-fab btn-circle float-right">+</button>
+  </div>
+</div>
