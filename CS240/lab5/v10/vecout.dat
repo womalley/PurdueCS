@@ -1,0 +1,13 @@
+MAGNITUDES:
+x-vector magnitude: 1.414214
+y-vector magnitude: 3.605551
+
+The dot product of x and y-vector: 5.000000
+
+The difference of x and y-vector:
+At index 0: 2.00
+At index 1: 1.00
+
+The square of the difference:
+At index: 0: 4.00
+At index: 1: 1.00
