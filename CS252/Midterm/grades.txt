@@ -1,0 +1,2 @@
+user		lab1	lab2	lab3	midterm	    final
+womalley	75	100	90	85	    75	
