@@ -1,0 +1,33 @@
+cruble
+
+Grade for lab 5
+
+Blocking Send (code): 90/100
+
+	Comments: NQENT value not updated by 2*NPROC
+	Graded by Raghuvir (rsonghel@purdue.edu)
+
+Blocking Send (pdf): 30/30
+
+	Comments: Refusing to kill a process can lead to system crashes
+	Graded by Derrick (mckee15@purdue.edu)
+
+Asynchronous Callback (code): 150/170
+
+	Comments: ; Call the callback function after interrupts are enabled, both in sleep.c and clkdisp.S.
+	Graded by Xuankang (lin420@purdue.edu), Nikolas (ogg@purdue.edu)
+
+Asynchronous Callback (pdf): 15/30
+
+	Comments: I it does it during a ctxsw, then interrupts are disabled; discussion about isolation?
+	Graded by Sruthi (psruthi@purdue.edu)
+
+Bonus: 0/20
+
+	Graded by Sruthi (psruthi@purdue.edu)
+
+Total: 285.0/330
+
+Total (with early submission credit): 285.0/330
+Final comments: Too many late days used
+

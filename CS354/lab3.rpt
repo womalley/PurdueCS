@@ -1,0 +1,28 @@
+cruble
+
+Grade for lab 3
+
+Problem 3: 45/100
+
+	3(a, b, d) graded by Nikolas (ogg@purdue.edu)
+
+	Comments for 3(c, e, f): CPU-bound processes with equal priority test failed
+	Graded by Raghuvir (rsonghel@purdue.edu)
+
+Problem 4: 135/180
+
+	Comments for PDF Report (CPU bound, mixed): No mention of UP values. Jumbled output == process preemption...Talk about it!
+	Graded by Derrick (mckee15@purdue.edu)
+
+	PDF Report (I/O bound) graded by Sruthi (psruthi@purdue.edu)
+
+	Comments for 4 (Code): In TA's test case, CPU procs are not sharing with othe CPU procs well; Also the time usage in later experiments are not accurate, it could read values like 100921ms eventually; Also it couldn't get the usage of other processes for scheduler evaluation (get 0).
+	Graded by Xuankang (lin420@purdue.edu)
+
+Bonus: 0/15
+	Graded by Sruthi (psruthi@purdue.edu)
+	Comments: No bonus
+
+Total: 180/280
+
+Total (with early submission credit): 180.0/280

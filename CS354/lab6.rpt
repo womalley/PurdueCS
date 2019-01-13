@@ -1,0 +1,30 @@
+cruble
+
+Grade for lab 6
+
+Problem 3, Signal Handling Subsystem (code): 61.5/150
+	Graded by Derrick (mckee15@purdue.edu), Nikolas (ogg@purdue.edu)
+
+Problem 3, Signal Handling Subsystem (pdf): 50/50
+
+	Graded by Xuankang (lin420@purdue.edu)
+
+Problem 4, Memory Garbage Collection (code): 20.0/100
+
+Please read the description of test cases in the TA notes before following up.
+
+	Graded by Sruthi (psruthi@purdue.edu)
+
+Problem 4, Memory Garbage Collection (pdf): 35/40
+
+	Comments: Does memlist length remain same before and after getmem-kill?
+	Graded by Raghuvir (rsonghel@purdue.edu)
+
+Bonus: 0/30
+
+	Graded by Xuankang (lin420@purdue.edu)
+
+Total: 166.5/340
+
+Total (with early submission credit and possible deductions): 166.5/340
+

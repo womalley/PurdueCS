@@ -1,0 +1,26 @@
+cruble
+
+Grade for lab 1
+
+Problem 3.1: 27/30
+Comment: Halt calls itself in an endless manner.
+Graded by: Raghuvir (rsonghel@purdue.edu)
+
+Problem 3.2: 39/50
+Comment: newProcess.c cannot compile.
+Graded by Derrick (e-h) (mckee15@purdue.edu) and Xuankang (a-d) (lin420@purdue.edu)
+
+Problem 3.3 : 5/5
+Graded by Nikolas (ogg@purdue.edu)
+
+Problem 3.4: 30/30
+Graded by Nikolas (ogg@purdue.edu)
+
+Bonus: 0/15
+Comment: No Bonus
+Graded by Sruthi (psruthi@purdue.edu)
+
+Total: 101/115
+
+Total (with early submission credit): 101.0/115
+
