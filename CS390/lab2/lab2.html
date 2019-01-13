@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Lab 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="notes">
+            <div class="col-md-4">
+                <div class="noteList">Note List</div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Search">
+                </div>
+                <ul id="noteList">
+                    <div class="list-group" id="test">
+                        <!--
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="noteTitle" id="noteTitle">TITLE TEST</h5>
+                                </div>
+                                <p class="noteDesc" id="noteDesc">DESCRIPTION TEST.</p>
+                            </a>
+                    -->
+                    </div>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="newNoteTitle">New Note</div>
+                <form>
+                    <div class="form-group">
+                        <label for="addTitle"></label>
+                        <input class="form-control" id="addTitle" placeholder="Title">
+                    </div>
+                    <div class="form-group">
+                        <label for="addDescription"></label>
+                        <textarea class="form-control" id="addDescription" placeholder="Description" rows="3"></textarea>
+                    </div>
+                </form>
+                <button class="addNoteBtn" id="addNoteBtn" onclick="newNote()">Add Note</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

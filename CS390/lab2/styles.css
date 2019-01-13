@@ -1,0 +1,88 @@
+.row { 
+    height: 100vh;
+}
+
+.col-md-4 {
+    border-right: 2px solid lightcoral;
+    background-color: slateblue;
+    color: whitesmoke;
+    overflow: auto;
+}
+
+.noteList {
+    width: 100%;
+    font-size: 5vw;
+    border-bottom: 2px solid white;
+}
+
+.newNoteTitle {
+    width: 100%;
+    font-size: 5vw;
+    border-bottom: 2px solid black;
+}
+
+.list-group-item {
+    background-color: slateblue;
+    color: white;
+}
+
+.list-group-item:hover {
+    background-color: rgb(117, 103, 206);
+    color: white;
+}
+
+.list-group-item:focus {
+    background-color: white;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.addNoteBtn {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    background-color: white;
+    border-radius: 1em 1em 1em 1em;
+    color: slateblue;
+    display: inline-block;
+    border: 2px solid slateblue;
+    width: 100%;
+}
+
+button:hover {
+    background-color: slateblue;
+    text-decoration: none;
+    color: white;
+}
+
+button:focus {outline:0;}
+
+.delBtn {
+    float: right;
+}
+
+#searchInput {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0em;
+    opacity: 0.5;
+}
+
+#searchInput::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#searchInput:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: 1;
+  }

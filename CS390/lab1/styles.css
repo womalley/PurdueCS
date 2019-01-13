@@ -1,0 +1,58 @@
+.buttonLink {
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 1em;
+    background-color: grey;
+    border-radius: 1em 1em 1em 1em;
+    color: white;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.picture {
+    height: 100%;
+    width: 100%;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.info {
+    height: 100%;
+    text-align: center;
+}
+
+.bodyClass {
+    background-color: rgb(213, 235, 236);
+    padding-top: 1%;
+}
+
+button:hover {
+    background-color: lightgray;
+    text-decoration: none;
+    color: white;
+}
+
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+table, th, td {
+    border: 1px solid black;
+ }
+
+th {
+    background-color: rgb(145, 207, 228);
+}
+
+tr:nth-child(even) {
+     background-color: rgb(240, 240, 240);
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
